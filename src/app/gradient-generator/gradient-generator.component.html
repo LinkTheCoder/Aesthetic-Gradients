@@ -1,0 +1,15 @@
+<div class="gradient-container" [style.background]="gradientStyle">
+  <button (click)="generateGradient()">Generate Gradient</button>
+  <button (click)="copyToClipboard()">Copy CSS</button>
+
+  <div class="color-info">
+    <div class="hex-info">
+      <p><strong>Color 1 HEX:</strong> {{ hexColor1 }}</p>
+      <p><strong>Color 2 HEX:</strong> {{ hexColor2 }}</p>
+    </div>
+    <div class="rgb-info">
+      <p><strong>Color 1 RGB:</strong> {{ rgbColor1 }}</p>
+      <p><strong>Color 2 RGB:</strong> {{ rgbColor2 }}</p>
+    </div>
+  </div>
+</div>
